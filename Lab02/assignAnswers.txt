@@ -1,0 +1,13 @@
+Individual Assignment 1:
+
+1. Line 25 is causing the error
+2. I fixed it by dereferencing the input variable.
+3. "Sum" isn't being updated in for the read_values.
+4. I fixed it by making sum a pointer.
+
+Individual Assignment 2:
+
+1. The output is expected. I get "HELLO!hello!" as the output.
+2. The output is not expected. I get "HI!hi!hello!". I fixed the code by adding
+the length of string one to the length of string two in the for loop.
+3. The output is not expected. This might have happened because string 1 and 2 have a size of 10 in the main function, and the input that we are giving into the function is much more than 10.

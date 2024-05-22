@@ -1,0 +1,17 @@
+TPS 1:
+
+1. 3 types of memory pools are static, stack, and heap. Static is for global variables, stack is for local variables, and heap is for malloc variables.
+2.
+    a. 3
+    b. 2 of them are pointers. *ptr points to num and **handle points to *ptr.
+    c. Num is in stack, and ptr and handle are in heap.
+    d. heap
+3. done.
+4. done.
+
+TPS 2:
+
+1. done.
+2. done.
+3. I can see that *head is stored in a different place that the values it
+points to.

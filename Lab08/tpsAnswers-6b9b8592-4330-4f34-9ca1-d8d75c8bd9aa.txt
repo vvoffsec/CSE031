@@ -1,0 +1,28 @@
+TPS1:
+
+1. done
+2. done
+3. done
+4. li $v0, 5
+   syscall
+   add $t3, $0, $v0
+5. You do not need to declare n, lw, or la.
+6. done
+
+TPS2:
+
+1. When I enter 5, I get 29 as an output.
+2. done
+3. done
+4. $a0
+5. It will be returned into $v0. Since it is easy to move this value from $a0, moving it to $v0 to make the correct syscall is trivial.
+6. done
+7. There is enough space for 3 ints. It is not reserving any space for ints right now.
+8. done
+9. done
+10. We need to keep track of the size of the number since it is summing the values.
+11. done
+12. It won't have the right value for $a0. We need to restore the original value.
+13. done
+14. done
+15. It is the return address from the first time the recursive function was called.

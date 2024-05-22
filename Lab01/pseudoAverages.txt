@@ -1,0 +1,40 @@
+import iostream
+import stdlib.h
+
+int main()
+    int userInputNumber = -1
+    int numberOfEvenValues = 0;
+    int numberOfOddValues = 0;
+    int TotalOfEvenValues = 0;
+    int TotalofOddValues = 0;
+    int sumOfCurrentNumberDigits = 0;
+    int count = 1;
+
+    while (the user's input is not 0)
+    {
+        sumOfCurrentNumberDigits = 0;
+        numberSuffix(count);
+        take in user input
+        count++;
+        int currentNumber = abs(userInputNumber);
+        while (currentNumber != 0)
+        {
+            take the modulus of the current number to get the rightmost
+            digit, store that, and then divide by 10 to get all other digits.
+            this loops until the division results in 0
+        }
+        if (the sum % 2 is 0 and the sum is not 0)
+        {
+            add userInputNumber to TotalOfEvenValues and increment numberOfEvenValues
+        }
+        if (the sum % 2 is 1 and the sum is not 0)
+        {
+            same thing as previous if loop, except for odd values.
+        }
+
+        double EvenAverage = cast both TotalOfEvenValues and numberOfEvenValues as doubles and divide 
+        double OddAverage = cast both TotalOfOddValues and numberOfOddValues as doubles and divide
+
+        print as needed.
+
+    }

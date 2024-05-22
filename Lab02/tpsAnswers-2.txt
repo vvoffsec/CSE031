@@ -1,0 +1,29 @@
+LAB PARTNER: Adit Khandelwal
+
+
+TPS2:
+
+1. clang -g punishment.c -o punishment
+2. lldb ./punish
+3. process launch
+4. run
+5. breakpoint set --file punishment.c --line 26
+6. 
+    To run the code line-by-line, I used "step"
+    I showed the variable contents by doing:
+        p typoLine
+        p i 
+        p count
+7. To finish through the program, I used "continue"
+8. To get out of lldb, I used "exit"
+
+TPS3:
+
+1. There are 4 variables, with 2 of them being pointers.
+2. X, Y, and Arr[0] will all be random values.
+3. This can be fixed by setting the values of all of the variables.
+4. done.
+5. They are equal.
+6. done
+7. done
+8. The addresses of the first element and the actual array are the same because they point to the same memory place. This does make sense based on the previous exercises.

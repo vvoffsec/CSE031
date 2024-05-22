@@ -1,0 +1,28 @@
+TPS 1:
+
+1. I expect the program to print 2, as a hex value.
+2. I expect four_ints[0] to print A as a hex value (41) because that is what the for loop before
+the print statement is doing.
+3. I was wrong, it printed "44434241". I can understand why because the loops on character pointers
+are one byte long.
+4. I expected 42 (which is the hex value for 66), but it output 2.
+5.
+    a. There are 2 arrays in this program
+    b. Yes, both four_ints and four.c point to the same location.
+    c. By using the index 0, I was able to verify that they do both
+    point to the same location.
+6. It seems that they are 4 bytes apart. (b0, b4, b8, bc (where c = 12))
+7. done (attached in canvas).
+8. Now the seems that they are 1 byte apart (b0, b1, b2, b3).
+9. done (on the same attached canvas picture).
+10. C assesses memory by looking at the data type and the corresponding memory address.
+
+TPS 2:
+
+1. It creates an array of integer pointers.
+2. What I can do is allocate an array for each row, and then use a double for-loop.
+3. done.
+4. We need to pass in the size of the argument because the for loop depends on the size of the array.
+5. done.
+6. done.
+7. done.

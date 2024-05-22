@@ -1,0 +1,23 @@
+TPS1:
+
+1. A method is a function that is exclusive to a class. A function returns a value. A procedure does not return values, but works similarly to functions.
+2. done
+3. done
+4. Line 12 is the line where a jump is used to go to Line 20, where registers are added and the value is loaded into $v0.
+5. You cannot use j $ra because the code is meant to read a label, not a register. jr $ra is used to read registers.
+6. The return address is at line 11, and is saved to $ra. The value there, however, is 0, which does not make much sense.
+7. There is an error: "Invalid program counter value".
+8. It should be the line after the original jump was called
+9. It should be correct.
+10. The new return address is: 0x0040001c, and the output is 15.
+11. jal should be the correct operator to use.
+12. done
+
+TPS2:
+
+1. The output should be 38.
+2. It'll be an infinite loop.
+3. jal allows for the program to go to the register that is specified and then save the return address at $ra. When it is called again within sum, the original return address is lost.
+4. We can save the original value of $a0 by doing: addi $sp, $sp, 4.
+5. The original value of $s0 is replace by the value of m. This may pose a problem because the program does not necessarily account for this.
+6. done

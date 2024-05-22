@@ -1,0 +1,36 @@
+TPS1:
+1. Group names:
+    Adit Khandelwal
+    Miguel Avalos
+    Vishal Venkateswaran
+2. Links to Tutorials
+    https://www.youtube.com/watch?v=IHrGresKu2w
+    https://www.youtube.com/watch?v=bPt6DH8NYPY
+    https://www.youtube.com/watch?v=UVUd9_k9C6A
+
+TPS2:
+1. How to Open a terminal from my PC?
+    I can use Windows+R and type "cmd" to open a non-admin instance. I can also just look it up in the Windows Search bar. I can also use PowerShell for administrative terminals
+    a.) Can you open more than 1 terminal?
+        Yes
+    b.) Why do you think you want to make more than 1 terminal?
+        In the case that a program is connected to another or is dependent on another program (awaiting input from one program to the other)
+2. How can you tell what the contents of your directory is?
+    By using the command "ls" in PowerShell
+3. How can you navigate to the Desktop directory?
+    Using "cd/Desktop"
+4. How can you make new directories?
+    I can use the "mkdir CSE31" command in powershell.
+
+TPS3:
+1. Find 2 references for how to use GCC on Powershell
+    https://www.youtube.com/watch?v=9VinvEfAlsw
+    https://www.youtube.com/watch?v=5gtGA2JVJ0w
+3. gcc -o executableName fileName
+4. If there is no error in the terminal, then there should not be any problems
+5. The -C flag gets compiled code without linking anything
+6. The -G flag allows use of the debugger.
+7. Using "mv oldName newName" (so I would do "mv main cselab1")
+8. It makes a default name for the executable called "a.exe"
+9. I used "./cselab1.exe"
+

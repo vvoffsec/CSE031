@@ -1,0 +1,64 @@
+Collaborated with Adit Khandelwal
+-------------------------------------------------------------------------------SAMPLE RUN 1
+Enter the number of assignments (between 1 and 25): 1
+Enter score: 57
+Original scores: 57 
+Sorted scores (in descending order): 57 
+Enter the number of (lowest) scores to drop: 0
+Average (rounded down) with dropped scores removed: 57
+-- program is finished running --
+
+-------------------------------------------------------------------------------SAMPLE RUN 2
+Enter the number of assignments (between 1 and 25): 4
+Enter score: 200
+Enter score: 137
+Enter score: 1
+Enter score: 52
+Original scores: 200 137 1 52 
+Sorted scores (in descending order): 200 137 52 1 
+Enter the number of (lowest) scores to drop: 4
+Average (rounded down) with dropped scores removed: 0
+-- program is finished running --
+
+-------------------------------------------------------------------------------SAMPLE RUN 3
+Enter the number of assignments (between 1 and 25): 10
+Enter score: 1
+Enter score: 2
+Enter score: 3
+Enter score: 4
+Enter score: 5
+Enter score: 6
+Enter score: 7
+Enter score: 8
+Enter score: 9
+Enter score: 10
+Original scores: 1 2 3 4 5 6 7 8 9 10 
+Sorted scores (in descending order): 10 9 8 7 6 5 4 3 2 1 
+Enter the number of (lowest) scores to drop: 3
+Average (rounded down) with dropped scores removed: 7
+-- program is finished running --
+
+-------------------------------------------------------------------------------SAMPLE RUN 4
+Enter the number of assignments (between 1 and 25): 3
+Enter score: 1000000
+Enter score: 1000000000
+Enter score: 10
+Original scores: 1000000 1000000000 10 
+Sorted scores (in descending order): 1000000000 1000000 10 
+Enter the number of (lowest) scores to drop: 2
+Average (rounded down) with dropped scores removed: 1000000000
+-- program is finished running --
+
+-------------------------------------------------------------------------------SAMPLE RUN 5
+Enter the number of assignments (between 1 and 25): 6
+Enter score: 37
+Enter score: 28
+Enter score: 92
+Enter score: 41
+Enter score: 69
+Enter score: 35
+Original scores: 37 28 92 41 69 35 
+Sorted scores (in descending order): 92 69 41 37 35 28 
+Enter the number of (lowest) scores to drop: 2
+Average (rounded down) with dropped scores removed: 59
+-- program is finished running --

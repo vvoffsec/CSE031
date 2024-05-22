@@ -1,0 +1,28 @@
+TPS 1:
+
+1. MIPS Assembler and Runetime Simulator
+2. done.
+3. done.
+4. done.
+5.
+    a. File --> Open --> filename.asm 
+    b. Click the assemble button.
+    c. click the run button at the top from the dropdown
+    d. You need to assemble first.
+    e. Click the Step button
+    f. Use the reset button
+6. done.
+
+TPS 2: 
+
+1. .word is used to allocate space in memory. .text tells the code when to go to the next text segment, or rather just
+denoting where the code starts. .data is where a variable is initialized.
+2. if $t3 == $0, then go to the finish and execute from there, if not then continue with fib.
+3. Since the fibonacci sequence is recursive, it calls itself by using the j (jump) operator and runs again.
+4. Go to the execute tab, find line 15, and click the checkbox in the bkpt column, but do not assemble after doing this. 
+To step through the program, click the step button from the top dropdown under "Run".
+5. On the right side of the screen, there is a window with a tab named registers with all of the values showing there.
+6. To edit a register while the program is running, first have a breakpoint in the execute tab selected, then while the program
+is running, double click on the value for a register and edit it to any value.
+7. 0x10010000 
+8. Using $t0 and the number for syscall.
